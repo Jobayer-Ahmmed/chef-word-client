@@ -4,3 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.dish_image {
+    transition: transform 0.3s ease; /* Smooth transition */
+    transform-origin: center center; /* Transform origin set to center */
+}
+
+.dish_div:hover .dish_image{
+    transform: scale(1.2); /* Scale up by 1.5 times on hover */
+}

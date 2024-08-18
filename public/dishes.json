@@ -1,0 +1,62 @@
+[
+    {   
+        "item": 1,
+        "foodName": "Khichuri",
+        "image": "https://i.ibb.co/9gWbq6K/khichuri.jpg",
+        "price": "$10"
+    },
+    {   
+        "item": 2,
+        "foodName": "Fried Chicken Leg",
+        "image": "https://i.ibb.co/5v3JkLM/fried-chicken-leg.jpg",
+        "price": "$15"
+    },
+    {   
+        "item": 3,
+        "foodName": "Chicken",
+        "image": "https://i.ibb.co/pRVctVN/chicken.jpg",
+        "price": "$15"
+    },
+    {   
+        "item": 4,
+        "foodName": "Lobster 1",
+        "image": "https://i.ibb.co/SxSQNWZ/lobster1.jpg",
+        "price": "$25"
+    },
+    {   
+        "item": 5,
+        "foodName": "Lobster 2",
+        "image": "https://i.ibb.co/938VKGW/lobster2.jpg",
+        "price": "$30"
+    },
+    {   
+        "item": 6,
+        "foodName": "Full Table Dishes 1",
+        "image": "https://i.ibb.co/D7Sf2WC/full-table-dishes1.jpg",
+        "price": "$250"
+    },
+    {   
+        "item": 7,
+        "foodName": "Rice",
+        "image": "https://i.ibb.co/wWWRK0n/rice.jpg",
+        "price": "$17"
+    },
+    {   
+        "item": 8,
+        "foodName": "Breakfast Plate",
+        "image": "https://i.ibb.co/Lx9xsZd/breakfast-plate.jpg",
+        "price": "$20"
+    },
+    {   
+        "item": 9,
+        "foodName": "Full Table Dishes 2",
+        "image": "https://i.ibb.co/QNZLY3n/full-table-dishes2.jpg",
+        "price": "$300"
+    },
+    {   
+        "item": 10,
+        "foodName": "Noodles",
+        "image": "https://i.ibb.co/F5HrnxH/noodles.jpg",
+        "price": "$4"
+    }
+]
