@@ -13,3 +13,9 @@
 .dish_div:hover .dish_image{
     transform: scale(1.2); /* Scale up by 1.5 times on hover */
 }
+.hungry{
+    background-image: url('./assets/banner-images/beaf.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
