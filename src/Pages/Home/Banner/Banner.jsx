@@ -13,8 +13,8 @@ import BookATable from "./BookATable";
 
 const Banner = () => {
   return (
-    <div className=" lg:flex">
-      <div className="lg:w-[70%]">
+    <div className=" lg:flex lg:mt-10 mt-0 ">
+      <div className="lg:w-[70%] lg:ml-10">
         <Carousel
           autoPlay={true}
           infiniteLoop={true}

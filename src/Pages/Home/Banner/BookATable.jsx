@@ -55,6 +55,7 @@ const BookATable = () => {
             {...register("food", { required: true })}
             className="mt-3 px-4 h-10 rounded-sm w-full bg-yellow-700 outline-none"
           >
+            <option value="I will discus after arrive">I will order food after arrive</option>
             <option value="Chicken Leg Fry">Chicken Leg Fry</option>
             <option value="Beef">Beef</option>
             <option value="Noodles">Noodles</option>
