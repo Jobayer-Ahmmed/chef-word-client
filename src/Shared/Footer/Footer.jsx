@@ -5,7 +5,7 @@ import Rating from "react-rating";
 
 const Footer = () => {
   return (
-    <div className="bg-yellow-800 text-gray-100 mt-10 pt-10">
+    <div className="bg-yellow-800 text-gray-100 lg:mt-10 md:mt-16 mt-10 pt-10">
       <div className="flex md:flex-row flex-col-reverse justify-center items-center gap-10 md:gap-32">
         <div>
           <h4 className="text-center mb-4 text-xl font-medium">Join us on</h4>
