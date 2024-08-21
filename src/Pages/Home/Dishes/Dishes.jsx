@@ -11,7 +11,7 @@ const Dishes = () => {
   return (
     <div className="mt-16  text-yellow-800">
       <div className="flex justify-center items-center mb-6">
-        <h2 className="mt-10 mb-6 text-3xl text-yellow-800 font-semibold border-y-2 border-yellow-800 py-4 px-8">
+        <h2 className="mt-10 mb-6 text-3xl text-yellow-800 font-semibold border-y-[3px] py-4 px-8">
           Delicious Dishes
         </h2>
       </div>
