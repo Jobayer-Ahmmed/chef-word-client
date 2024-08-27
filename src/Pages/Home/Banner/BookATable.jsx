@@ -1,4 +1,6 @@
 import { useForm } from "react-hook-form";
+import useAxios from "../../../hooks/useAxios";
+import axios from "axios";
 
 const BookATable = () => {
   const {
@@ -6,10 +8,14 @@ const BookATable = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
+  const rootAxios = useAxios()
 
   const onSubmit = (data) => {
-    const {table, time, food} = data
-    console.log(table, time, food)
+    const {table:table_name, time, food:food_name} = data
+   console.log(table_name, food_name, time)
+   rootAxios.post("/book_table", {table_name, food_name,time})
+            .then((d)=>console.log("get touch in mongoDB and the result is", d ))
+
   };
 
   return (
