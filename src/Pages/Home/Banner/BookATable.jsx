@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 import useAxios from "../../../hooks/useAxios";
 import axios from "axios";
+import { useEffect } from "react";
 
 const BookATable = () => {
   const {
@@ -17,6 +18,11 @@ const BookATable = () => {
             .then((d)=>console.log("get touch in mongoDB and the result is", d ))
 
   };
+
+  useEffect(()=>{
+    rootAxios.get("/book_table")
+              .then(d=>console.log(d.data))
+  }, [])
 
   return (
     <div className="mt-10 mx-10 ">
