@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import useAxios from "../../../hooks/useAxios";
 import axios from "axios";
 import { useEffect } from "react";
+import Swal from 'sweetalert2'
 
 const BookATable = () => {
   const {
@@ -15,7 +16,13 @@ const BookATable = () => {
     const {table:table_name, time, food:food_name} = data
    console.log(table_name, food_name, time)
    rootAxios.post("/book_table", {table_name, food_name,time})
-            .then((d)=>console.log("get touch in mongoDB and the result is", d ))
+            .then(()=>{
+              Swal.fire({
+                position: "center",
+                icon: "success",
+                title: `You have booked ${table_name} at ${time} and you want '${food_name}'`,
+              });
+            })
 
   };
 
