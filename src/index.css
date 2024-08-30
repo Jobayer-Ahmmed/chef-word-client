@@ -19,3 +19,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.signup{
+    background: url("./assets/banner-images/burgar.jpg") no-repeat center;
+    background-size: cover;
+}

@@ -9,8 +9,8 @@ export default {
       colors: {
         clifford: '#da373d',
         btnColor: "#ff6347",
-        hoverColor: "#ff4500"
-
+        hoverColor: "#ff4500",
+        inputBG: "#ca8a04",
 
  
       },
