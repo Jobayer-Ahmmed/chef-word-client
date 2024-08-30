@@ -97,8 +97,8 @@ const SignUp = () => {
   }, []);
 
   return (
-    <div className="signup text-white py-myMargin flex justify-center " data-aos="fade-left">
-      <div className="p-10 shadow-2xl bg-black  rounded-lg bg-opacity-50">
+    <div className="signup text-white py-myMargin flex justify-center ">
+      <div className="p-10 shadow-2xl bg-black  rounded-lg bg-opacity-50"  data-aos="fade-left">
         <h2 className="text-textColor text-2xl font-medium pb-3 border-b mb-5">
           Sign up now
         </h2>
