@@ -20,7 +20,7 @@ const BookATable = () => {
               Swal.fire({
                 position: "center",
                 icon: "success",
-                title: `You have booked ${table_name} at ${time} and you want '${food_name}'`,
+                title: `You have booked '${table_name}' at '${time}' and you want '${food_name}'`,
               });
             })
 
