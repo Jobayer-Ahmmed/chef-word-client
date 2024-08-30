@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import chef_hat from '../../assets/images/chef-wot-name.png'
 
 const Navbar = () => {
@@ -8,9 +9,9 @@ const Navbar = () => {
             <h3 className='md:ml-3 ml-2 md:text-2xl text-xl font-lobster text-black'>Chef World</h3>
         </div>
         <div className='flex items-center text-lg'>
-          <button>Sign In</button>
+          <NavLink>Sign In</NavLink>
           <div className='w-[2px] h-10 rounded-full  bg-white mx-2'></div>
-          <button>Sign Up</button>
+          <NavLink to="/signup">Sign Up</NavLink>
         </div>
     </div>
   )
